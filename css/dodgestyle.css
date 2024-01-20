@@ -1,35 +1,55 @@
-html, body {
-    background-image: url(/image/dodgebackground1.jpg)
+body {
+    background-image: url(/image/dodgebackground1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
 }
-
+.h1 {
+    text-align: center;
+    border-radius: 20px;
+    font-family: fantasy;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
 .Dodge {
-    margin-top: 300px;
+    margin-top: 150px;
     margin-left: 330px;
     display: inline-block;
-    font-size: 19px;
-    border-radius: 100px;
-    width: 420px;
+    border-radius: 20px;
+    width: 430px;
     text-align: center;
-    background-image: linear-gradient(3000deg, rgb(54, 58, 61), rgb(255, 255, 255));
+    background-image: linear-gradient(3000deg, rgb(226, 151, 12), rgb(201, 168, 126));
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 .Dodge_demon {
     display: inline-block;
-    font-size: 19px;
-    border-radius: 100px;
+    border-radius: 20px;
     width: 420px;
     text-align: center;
-    background-image: linear-gradient(3000deg, rgb(243, 243, 243), rgb(54, 58, 61));
+    background-image: linear-gradient(3000deg, rgb(243, 243, 243), rgb(112, 115, 117));
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 .Dodge_viper {
     display: inline-block;
-    font-size: 19px;
-    border-radius: 100px;
+    border-radius: 20px;
     width: 420px;
     text-align: center;
-    background-image: linear-gradient(3000deg, rgb(54, 58, 61), rgb(255, 255, 255));
+    background-image: linear-gradient(3000deg, rgb(112, 115, 117), rgb(255, 255, 255));
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.chall_block {
+    padding: 5px;
+    background-image: url(/image/dodgebackground.jpg);
+    margin-left: 330px;
+    font-size: 20px;
+    text-align: center;
+    font-family: fantasy;
+    margin-top: 5px;
+    width: 420px;
+    border-radius: 15px;
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
