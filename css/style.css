@@ -24,8 +24,15 @@ body {
 }
 
 a:visited,
-.tittle_menu,
-.tittle_block {
+.tittle_menu {
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+a:visited,
+.tittle_block,
+.sidebar__block-item {
+    margin-top: 15px;
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
@@ -90,7 +97,6 @@ li::marker {
 .sidebar {
     margin-top: 5px;
     width: 30%;
-    background-color: rgb(117, 181, 224);
     border-radius: 15px;
     text-align: center;
     background-image: linear-gradient(3000deg, black, cyan);
@@ -99,7 +105,6 @@ li::marker {
 .sidebar2 {
     margin-top: 5px;
     width: 30%;
-    background-color: rgb(117, 181, 224);
     border-radius: 15px;
     margin-left: 5px;
     padding: 16px;
