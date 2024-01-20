@@ -23,7 +23,9 @@ body {
     margin-left: 600px;
 }
 
-a:visited, .tittle_menu , .tittle_block {
+a:visited,
+.tittle_menu,
+.tittle_block {
     -webkit-text-fill-color: rgb(0, 0, 0);
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
